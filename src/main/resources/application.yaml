@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-graphql
+  threads:
+    virtual:
+      enabled: true
+  profiles:
+    active: h2, graphql

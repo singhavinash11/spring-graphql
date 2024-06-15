@@ -1,0 +1,6 @@
+#Enabling GraphQL playground
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphiql
